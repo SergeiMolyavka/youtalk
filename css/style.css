@@ -1,0 +1,912 @@
+a, ul {
+    text-decoration: none;
+    list-style-type: none;
+    color: #333333;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    border-bottom: 1px solid #eff5fb;
+}
+
+.img-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 51px;
+}
+
+nav {
+    padding: 0;
+    margin-right: 164px;
+    width: 704px;
+}
+
+.nav {
+    display: flex;
+    padding: 0;
+}
+
+.nav-item {
+    padding-right: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-item__last {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 0;
+    align-items: center;
+}
+
+.item-img {
+    padding-left: 8px;
+}
+
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #03b2a5;
+    color: #03b2a5;
+    border-radius: 4px;
+    padding: 14px 20px 14px 20px;
+    margin: 14px 0 14px 0;
+    width: 230px;
+    height: 48px;
+    background: #e3f5f5;
+    border: none;
+    cursor: pointer;
+}
+
+.button__second {
+    position: relative;
+    padding: 12px 16px;
+    width: 182px;
+    height: 48px;
+    background-color: #35b3a9;
+    color: #ffffff;
+    border-radius: 4px;
+    margin: 56px 509px 96px 509px;
+    cursor: pointer;
+}
+
+.nav-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 18px;
+    margin: 16px 0 31px 0;
+}
+
+.span-item {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+/* Внизу начинается Main */
+
+main {
+    position: relative;
+}
+
+main::before {
+    background-image: url(../images/Vector-krivoi.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    content: '';
+    position: absolute;
+    top: 255px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container-main,
+.wrapper__footer {
+    font-family: Montserrat;
+    margin-left: 120px;
+    margin-right: 120px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.wrapper__nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list__item {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 8px;
+    border: 1px solid #c1c5cd;
+    border-radius: 24px;
+    padding: 6px 8px 6px 8px;
+}
+
+#nav-list--border {
+    border: 2px solid #16c8bb;
+    border-radius: 24px;
+}
+
+.smile-item {
+    width: 18px;
+    height: 18px;
+}
+
+.position-smile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.par-smile {
+    margin: 0;
+    padding-left: 5px;
+}
+
+/* Первые две большие карточки */
+
+.wrapper__cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 24px;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 588px;
+    border-radius: 16px;
+    margin-right: 24px;
+    cursor: pointer;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.cart__general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(../images/1.png);
+    background-repeat: no-repeat;
+    background-size: 588px 260px;
+    max-width: 588px;
+    width: 100%;
+    height: 260px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 16px 16px 0 0;
+    box-sizing: border-box;
+}
+
+.cart__img-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #c1c5cd;
+    border-radius: 24px;
+    padding: 6px 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.img-p {
+    padding-left: 4px;
+}
+
+.cart__bottom {
+    border: 1px solid #dedede;
+    border-radius: 0 0 16px 16px;
+    width: 588px;
+    height: 240px;
+    box-sizing: border-box;
+}
+
+.cart__bottom-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 31px 4px 16px;
+}
+
+.cart__bottom-author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: 8px;
+}
+
+.cart__bottom-parh {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0 16px 85px 16px;
+}
+
+.cart__bottom-date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #868686;
+    margin: 68px 0 16px 16px;
+}
+
+.cart__two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 588px;
+    height: 499px;
+    border-radius: 16px;
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.cart__general-two {
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-size: 588px 260px;
+    max-width: 588px;
+}
+
+/* Остальные 6 карточек меньшего размера */
+
+.wrapper__general {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.wrapper__general-cart {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.wrapper__general-cart-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 384px;
+    height: 475px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.wrapper__general-cart-option {
+    background-image: url(../images/3.png);
+}
+
+.wrapper__general-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #c1c5cd;
+    border-radius: 24px;
+    padding: 6px 8px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.wrapper__general-bottom {
+    border: 1px solid #dedede;
+    border-radius: 0 0 16px 16px;
+    width: 384px;
+    height: 216px;
+    box-sizing: border-box;
+}
+
+.wrapper__general-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 16px 4px 16px;
+}
+
+.wrapper__general-author {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 4px 16px 8px 16px;
+}
+
+.wrapper__general-parh {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 16px 42px 16px;
+}
+
+.wrapper__general-date {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #868686;
+    margin: 0 307px 10px 16px;
+}
+
+.wrapper__general-cart-option,
+.wrapper__general-cart-option-2,
+.wrapper__general-cart-option-3,
+.wrapper__general-cart-option-4,
+.wrapper__general-cart-option-5,
+.wrapper__general-cart-option-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-repeat: no-repeat;
+    background-size: 384px 260px;
+    width: 384px;
+    height: 260px;
+    border-radius: 16px 16px 0 0;
+    box-sizing: border-box;
+}
+
+.wrapper__general-cart-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 384px;
+    height: 475px;
+    border-radius: 16px;
+    margin-right: 24px;
+    background: #ffffff;
+}
+
+.wrapper__general-cart-option-2 {
+    background-image: url(../images/4.png);
+}
+
+.wrapper__general-cart-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 384px;
+    height: 475px;
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.wrapper__general-cart-4,
+.wrapper__general-cart-5 {
+    margin-right: 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.wrapper__general-cart-6 {
+    background: #ffffff;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+
+.wrapper__general-cart-option-3 {
+    background-image: url(../images/5.png);
+}
+
+.wrapper__general-cart-option-4 {
+    background-image: url(../images/6.png);
+}
+
+.wrapper__general-cart-option-5 {
+    background-image: url(../images/7.png);
+}
+
+.wrapper__general-cart-option-6 {
+    background-image: url(../images/8.png);
+}
+
+/* Тут начинается Footer */
+
+footer {
+    background: #2963a3;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav__list-footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.nav__list-footer-item {
+    padding: 0;
+    margin-top: 40px;
+    margin-right: 95px;
+    width: 111px;
+    height: 184px;
+}
+
+.nav__list-footer-list {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 16px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.foooter__offert {
+    width: 486px;
+    height: 170px;
+    margin-top: 40px;
+    margin-right: 24px;
+}
+
+.foooter__offert-header {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    margin-bottom: 8px;
+    width: 356px;
+    height: 52px;
+}
+
+.foooter__offert-parh {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group {
+    position: relative;
+    width: 384px;
+    height: 48px;
+}
+
+input[type='text'] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border: 1px solid rgba(157, 157, 157, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+input[type='text']::placeholder {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #9d9d9d;
+}
+
+button[type='submit'] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 20px;
+    width: 64px;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: #16c8bb;
+    cursor: pointer;
+}
+
+.logo__footer {
+    margin-top: 40px;
+    margin-left: 24px;
+}
+
+.logo__footer-logo {
+    margin-bottom: 40px;
+}
+
+.logo__footer-icon-social {
+    margin-right: 16px;
+    cursor: pointer;
+}
+
+.footer__policy {
+    padding-top: 16px;
+    padding-bottom: 17px;
+    border-top: 1px solid rgba(157, 157, 157, 0.3);
+}
+
+.footer__policy-span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.7;
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 960px;
+    }
+    .container .button {
+        display: none;
+    }
+    .container-main {
+        max-width: 960px;
+    }
+    .nav-list {
+        max-width: 950px;
+        flex-wrap: wrap;
+    }
+    .nav-list__item {
+        margin-bottom: 8px;
+    }
+    .cart {
+        max-width: 468px;
+        max-height: 499px;
+    }
+    .cart__bottom {
+        max-width: 468px;
+        max-height: 240px;
+    }
+    .cart__two {
+        max-width: 468px;
+        max-height: 499px;
+    }
+    .cart__bottom-header {
+        line-height: 26px;
+    }
+    .cart__bottom-parh {
+        line-height: 20px;
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-bottom: 48px;
+    }
+    .cart__bottom-date {
+        margin-top: 60px;
+    }
+    .wrapper__general-cart {
+        max-width: 960px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3 {
+        max-width: 304px;
+        max-height: 458px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 304px;
+        height: 206px;
+        background-size: 304px 206px;
+    }
+    .wrapper__general-header {
+        line-height: 26px;
+    }
+    .wrapper__general-parh {
+        line-height: 20px;
+        padding: 0;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-bottom: 14px;
+    }
+    .wrapper__general-date {
+        margin-right: 230px;
+    }
+    .wrapper__general-bottom {
+        max-width: 306px;
+        height: 253px;
+    }
+    .button__second {
+        margin-left: 389px;
+    }
+    main::before {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 728px;
+    }
+    nav {
+        display: none;
+    }
+    .img-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .img-logo::after {
+        content: url(../images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 637px;
+    }
+    .container-main {
+        max-width: 728px;
+    }
+    .wrapper__cart {
+        display: flex;
+        flex-direction: column;
+        align-items: normal;
+    }
+    .cart {
+        max-width: 728px;
+        margin-right: 0;
+        margin-bottom: 24px;
+    }
+    .cart__two {
+        max-width: 728px;
+        width: 100%;
+    }
+    .cart__bottom {
+        max-width: 728px;
+        width: 100%;
+    }
+    .cart__general {
+        background-size: 728px 404px;
+        max-width: 728px;
+        width: 100%;
+        height: 404px;
+    }
+    .wrapper__general-cart {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 340px;
+        width: 100%;
+        margin-right: 24px;
+        margin-top: 24px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 352px;
+        background-size: 352px 206px;
+    }
+    .wrapper__general-bottom {
+        max-width: 352px;
+    }
+    .button__second {
+        margin-left: 270px;
+    }
+}
+
+@media (max-width: 414px) {
+    .container {
+        max-width: 374px;
+    }
+    .img-logo::after {
+        content: url(../images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 277px;
+    }
+    .container-main {
+        max-width: 374px;
+    }
+    .nav-list {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    .nav-list__item {
+        white-space: nowrap;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .cart__general {
+        background-size: 374px 206px;
+        max-width: 374px;
+        width: 100%;
+        height: 206px;
+    }
+    .cart__bottom-parh {
+        margin-bottom: 25px;
+    }
+    .wrapper__general-cart {
+        margin-top: 0;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 374px;
+        background-size: 374px 206px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 374px;
+        max-height: 466px;
+    }
+    .wrapper__general-bottom {
+        max-width: 374px;
+    }
+    .button__second {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 288px;
+    }
+    .img-logo::after {
+        content: url(../images/Burger-menu.svg);
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        margin-left: 208px;
+    }
+    .container-main {
+        max-width: 288px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    .cart__bottom-parh {
+        margin: 0;
+    }
+    .cart {
+        height: 471px;
+    }
+    .cart__general {
+        background-size: 288px 206px;
+        max-width: 288px;
+        width: 100%;
+        height: 206px;
+    }
+    .cart__bottom {
+        max-width: 288px;
+        height: 314px;
+    }
+    .wrapper__general-cart-1,
+    .wrapper__general-cart-2,
+    .wrapper__general-cart-3,
+    .wrapper__general-cart-4,
+    .wrapper__general-cart-5,
+    .wrapper__general-cart-6 {
+        max-width: 288px;
+        height: 484px;
+    }
+    .wrapper__general-cart-option,
+    .wrapper__general-cart-option-2,
+    .wrapper__general-cart-option-3,
+    .wrapper__general-cart-option-4,
+    .wrapper__general-cart-option-5,
+    .wrapper__general-cart-option-6 {
+        max-width: 288px;
+        background-size: 288px 206px;
+    }
+    .wrapper__general-bottom {
+        max-width: 288px;
+    }
+    .button__second {
+        margin-left: 45px;
+    }
+}
